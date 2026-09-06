@@ -1,0 +1,13 @@
+# This file declares the floor (requires-python) that the standing
+# constraints for this repo are written against. It is not meant to be
+# installed: this repo has zero third-party dependencies, runs straight off
+# the stdlib, and "python3 -m src.cli" / "python3 -m unittest" both work
+# from the repo root (the directory that contains src/) with no pip install
+# step. Keeping this file is about
+# stating the floor honestly, not about packaging.
+
+[project]
+name = "course-0-starter-python"
+version = "0.1.0"
+description = "Course 0 starter repo: a zero-dependency in-memory job queue and worker for your junior engineer to work against."
+requires-python = ">=3.9"
